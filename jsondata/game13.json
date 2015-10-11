@@ -1,0 +1,12 @@
+
+{
+			"gamelogo":"game13logo",
+			"name":"game13",
+			"rating":0,
+			"desc":"This is game13 description",
+			"recommendedGame":["game02","game05","game09","game11","game12","game17"],
+			"video":"http://www.w3schools.com/html/mov_bbb.mp4",
+			"stats":"stats for game13",
+			"image":"images/gameImage.png",
+			"review":"God of War III Remastered came out as a PlayStation 4 exclusive this past July, 2015. The team at Wholesale Algorithms was behind the development of the game and it was released through SCEA. Remastering one of the best God of War titles around seemed like only a given for a console that has a desperate need for recurring IP. Bringing back Kratos and his lurid world was a ton of hard work but according to Wholesale Algorithms there is plenty new to see here. So if you have played the initial title on the PS3 and still feel the urge to shed some blood then you might have just the perfect title waiting for you. Let’s dive in and see how the remaster went."
+}

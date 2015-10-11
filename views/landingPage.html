@@ -1,0 +1,91 @@
+<div class="landingPage">
+	<div class="row">
+	<div class="logo col-md-8">
+		<img width="40" alt="Brand" src="images/logo.png" style="width:20%"/>
+	</div>
+	<div class="col-md-4 landingPageGaneSelectorText">
+		<a href="#/GameSelection">Go to the Game Selector</a>
+	</div>
+	</div>
+	
+	<div class="row LandingPagesecondrow">
+	<span class="ExplainerVideo col-md-7">
+		<iframe width="400" height="315"
+src="https://youtube.com/embed/xS55DjUOGfE?autoplay=1">
+</iframe>
+	</span>
+	
+	<span class="greedyGameInfo col-md-5">
+		<h2> What is Greedy Game ?</h2>
+		<h4>
+			We make life simpler for you .Starting a compaign is easy. Just tell us your campaign objective
+			  The Rest is managed by out team.
+		</h4>
+	</span>
+	
+	</div>
+	
+	<div class="row LandingPagesecondrow">
+		
+	<div class="col-md-6">
+	<uib-accordion close-others="true">
+	
+    <uib-accordion-group  is-open="accordionData[0].open">
+      <uib-accordion-heading>
+			Info 1! <i class="pull-right glyphicon" ng-class="{'glyphicon glyphicon-minus': accordionData[0].open, 'glyphicon glyphicon-plus': !accordionData[0].open}"></i>
+      </uib-accordion-heading>
+      This is  some content to info 1.
+    </uib-accordion-group>
+    
+     <uib-accordion-group  is-open="accordionData[1].open">
+      <uib-accordion-heading>
+        Info 2! <i class="pull-right glyphicon" ng-class="{'glyphicon glyphicon-minus': accordionData[1].open, 'glyphicon glyphicon-plus': !accordionData[1].open}"></i>
+      </uib-accordion-heading>
+       This is  some content to info 2.
+    </uib-accordion-group>
+    
+    <uib-accordion-group  is-open="accordionData[2].open">
+      <uib-accordion-heading>
+        Info 3! <i class="pull-right glyphicon" ng-class="{'glyphicon glyphicon-minus': accordionData[2].open, 'glyphicon glyphicon-plus': !accordionData[2].open}"></i>
+      </uib-accordion-heading>
+       This is  some content to info 3.
+    </uib-accordion-group>
+    
+    
+  </uib-accordion>
+	
+	</div>
+	<div class="col-md-6 mobilePalceholder">
+		<img ng-repeat="data in accordionData" width="40" alt="Brand" ng-src="{{data.imgSrc}}" ng-if="data.open"/>
+	</div>
+	
+	</div>
+	<div class="landingPageProcess">
+	<h1>We make the process easy with our campaign creator</h1>	
+	</div>
+	
+	<div class="row LandingPagesecondrow">
+		<div class="processes">
+			<div>Step 1</div>
+			</div>
+		<div style="float: left;  line-height: 15"> 
+		<img width="40" alt="Brand" src="images/forwardImage1.jpg"/>
+		</div>
+		<div class="processes">Step2</div>
+		<div style="float: left;  line-height: 15"> 
+		<img width="40" alt="Brand" src="images/forwardImage1.jpg"/>
+		</div>
+		<div class="processes">Step 3</div>
+		<div style="float: left;  line-height: 15"> 
+		<img width="40" alt="Brand" src="images/forwardImage1.jpg"/>
+		</div>
+		<div class="processes">Step4</div>
+	</div>
+	<div class="row">
+		<div class="landingPageFooter">
+		<a type="button" href="#/GameSelection">Get Started Now</a>
+		</div>
+	</div>
+	
+	
+</div>

@@ -1,0 +1,57 @@
+<div class="container-fluid">
+<div class="row gameselectionHeader">
+		<div style="float: left">
+			<a href="#/LandingPage" title="Home Page">
+		<img width="40" alt="Brand" src="images/logo.png" style="width:100%"/>
+		</a>
+		</div>
+		
+		<div style="text-align: center">		
+		<h1>GreedyGame Selector</h1>
+		</div>
+	</div>
+	
+	<div class="row LandingPagesecondrow">
+    <div class="col-md-4">
+    	<img ng-src="{{game.image}}" alt="Smiley face" width="300" height="42" style="height:250px;border:black solid">
+    	<div class="gameScreenVideo">
+    	<iframe width="350" height="315"
+src="https://youtube.com/embed/xS55DjUOGfE?autoplay=1">
+</iframe>
+		</div>
+    </div>
+    <div class="col-md-6">
+    	<div>
+    	<div class="textGameSceen">
+    	<b>Name:</b>{{game.name}} </br>
+    	<b>Stats:</b>{{game.stats}} </br>
+    	<b>Description:{{game.desc}}</b> </br>
+    	 </div>
+    	
+    	<button style="margin-top: 82px">Start Campaign</button>
+    	</div>
+    	<div class="review">
+    		<h3>Review</h3>
+    		<p>{{game.review}}</p>
+    	</div>
+    </div>
+    <div class="col-md-2">
+    	<div class="seeAllApp" style="border:black solid;text-align: center">
+    	<a href="#/GameSelection">
+    	<h5>See all app</h5>
+    	</a>
+    	</div>
+    	<div style="border:black solid;margin-top:15px;height:100%px">
+    		  <ul ng-repeat = "recGame in game.recommendedGame">
+    		  	<li style="margin-top: 26px;margin-left: 10px">
+    		  		<a href="#/gameScreen/{{recGame}}">
+    		  		{{recGame}}
+    		  		</a>
+    		  		</li>
+    		  </ul>
+    	</div>
+    </div>
+  </div>
+	</div>
+	
+</div>
