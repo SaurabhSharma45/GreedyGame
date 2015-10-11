@@ -8,7 +8,18 @@ module.exports = function (grunt) {
                 dest: 'deploy/scripts.js'
             }
         },
+        connect: {
+    server: {
+      options: {
+        port: 9001,
+        //base: 'GreedyGame',
+        keepalive:true
+      }
+    }
+  }
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.registerTask("default",['connect']);
 };
