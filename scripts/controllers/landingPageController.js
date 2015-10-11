@@ -3,15 +3,15 @@ myApp.controller('landingPageController', function($scope) {
 	
 	$scope.accordionData = [{
 		open:true,
-		imgSrc: '/images/dollarsign.png'
+		imgSrc: '/images/greedyGame1.jpg'
 	},
 	{
 		open:false,
-		imgSrc: '/images/logo.png'
+		imgSrc: '/images/greedyGame2.jpg'
 	},
 	{
 		open:false,
-		imgSrc: '/images/spinner.gif'
+		imgSrc: '/images/greedyGame3.png'
 	}
 	];
   
